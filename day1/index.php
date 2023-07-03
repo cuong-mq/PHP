@@ -1,0 +1,35 @@
+<?php
+echo "Hello world, PHP  <br/>";
+
+$name = strlen('Your name: ');
+echo "Hello, $name. Welcome to heaven!\r\n <br/> ";
+echo gettype($name), "<br/>";
+$bin = 0b1100;
+echo $bin, "<br/>";
+$i = (int) "1000";
+echo gettype($i);
+$greeting = 'Hello, my name\'s Donald. <br/>';
+echo $greeting;
+$sentence = '"Hello, Donald" - he said';
+echo $sentence, "<br/>";
+echo $sentence[2], '<br/>';
+echo $sentence . ' & ' . $greeting, '<br/>';
+echo strlen($sentence), '<br/>';
+$abv = "    abv   ";
+echo trim($abv), '<br/>';
+$a = 'bbbbbbbbaabDonaldbcbaaaaaaaaaaaaaaa';
+echo trim($a, 'ab') ,"<br/>";
+$str = 'Hello world, Donald! Welcome to heaven to play ';
+echo strpos($str, 'to'), '<br/>';
+echo substr_count($str, 'to ');
+$b = " Hello Donald. Welcome to VN ";
+$c = str_replace('VN',  'Hn', $b);
+echo $c , '<br/>';
+$d = true;
+echo $d, '<br/>';
+$e= 10000;
+echo is_int($e), '<br/>';
+echo $e == $i, '<br/>';
+echo $e=== $i, '<br/>';
+echo $e!== $i, '<br/>';
+echo ''; 
